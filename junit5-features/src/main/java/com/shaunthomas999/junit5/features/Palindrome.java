@@ -1,5 +1,5 @@
 
-package com.shaunthomas999;
+package com.shaunthomas999.junit5.features;
 
 public class Palindrome {
 

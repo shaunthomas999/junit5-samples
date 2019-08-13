@@ -5,6 +5,7 @@ import lombok.Data;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
 @Data
 @Entity
@@ -13,8 +14,14 @@ public class Product {
 
   @Id
   private Long id;
+
+  @NotNull
   private String name;
+
   private String category;
+
+  @NotNull
   private Double price;
+
   private Integer count;
 }

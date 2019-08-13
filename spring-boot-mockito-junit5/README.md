@@ -26,7 +26,6 @@
 
 * https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
 * https://dzone.com/articles/spring-boot-2-restful-api-documentation-with-swagg
+* Validation - https://www.baeldung.com/spring-validate-requestparam-pathvariable
+* Spring - JUnit 5 Configuration - https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-kotlin-testing
 
-### Validation
-
-* https://www.baeldung.com/spring-validate-requestparam-pathvariable

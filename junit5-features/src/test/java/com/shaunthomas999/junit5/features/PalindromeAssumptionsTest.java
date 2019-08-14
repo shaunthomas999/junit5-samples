@@ -1,13 +1,14 @@
 package com.shaunthomas999.junit5.features;
 
-import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
-@Log
+@Slf4j
 class PalindromeAssumptionsTest {
 
   @Test
@@ -30,6 +31,7 @@ class PalindromeAssumptionsTest {
 
     // Will be executed if the first assumption (assumeTrue) is met
     assertFalse(false);
+
     log.info("Asserted false");
   }
 }

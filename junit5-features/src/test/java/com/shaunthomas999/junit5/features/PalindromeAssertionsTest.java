@@ -1,6 +1,6 @@
 package com.shaunthomas999.junit5.features;
 
-import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
 import static com.shaunthomas999.junit5.features.Palindrome.isPalindrome;
@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@Log
+@Slf4j
 class PalindromeAssertionsTest {
 
   @Test

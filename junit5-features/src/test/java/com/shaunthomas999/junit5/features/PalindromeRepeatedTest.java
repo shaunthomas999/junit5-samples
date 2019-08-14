@@ -1,13 +1,13 @@
 package com.shaunthomas999.junit5.features;
 
-import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.RepetitionInfo;
 
 import static com.shaunthomas999.junit5.features.Palindrome.isPalindrome;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@Log
+@Slf4j
 class PalindromeRepeatedTest {
 
   @RepeatedTest(3)

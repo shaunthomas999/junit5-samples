@@ -1,6 +1,6 @@
 package com.shaunthomas999.junit5.comparison;
 
-import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -13,7 +13,7 @@ import org.junit.rules.Timeout;
 
 import static org.junit.Assert.assertEquals;
 
-@Log
+@Slf4j
 public class CalculatorJunit4Test {
 
   private final Calculator calculator = new Calculator();

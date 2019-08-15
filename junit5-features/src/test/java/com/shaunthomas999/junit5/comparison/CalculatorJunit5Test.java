@@ -6,7 +6,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 
@@ -60,7 +59,9 @@ class CalculatorJunit5Test {
     assertEquals("/ by zero", exception.getMessage());
   }
 
-  @DisplayName("experimental-feature")
+  /**
+   * experimental-feature
+   */
   @Test
   @Timeout(value = 1000, unit = TimeUnit.MILLISECONDS) // default seconds
   void fibonacci_1() {
@@ -70,7 +71,7 @@ class CalculatorJunit5Test {
   @Test
   void fibonacci_2() {
     boolean result = assertTimeout(ofSeconds(1), () -> {
-      calculator.fibonacci(10); // will timeout for n = 42
+      log.info("{}", calculator.fibonacci(10)); // will timeout for n = 42
       return true;
     });
 

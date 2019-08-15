@@ -82,7 +82,7 @@ public class CalculatorJunit4Test {
 
   @Test
   public void fibonacci_2() {
-    calculator.fibonacci(10); // will timeout for n = 42
+    log.info("{}", calculator.fibonacci(10)); // will timeout for n = 42
   }
 
   // -- end

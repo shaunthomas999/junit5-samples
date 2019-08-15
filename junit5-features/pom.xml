@@ -98,10 +98,8 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${maven-surefire-plugin.version}</version>
 <!--        <configuration>-->
-<!--          &lt;!&ndash; Include &ndash;&gt;-->
-<!--          <groups>palindrome</groups>-->
-<!--          &lt;!&ndash; Exclude &ndash;&gt;-->
-<!--          <excludedGroups></excludedGroups>-->
+<!--          &lt;!&ndash; Include &ndash;&gt;<groups>palindrome</groups>-->
+<!--          &lt;!&ndash; Exclude &ndash;&gt;<excludedGroups></excludedGroups>-->
 <!--        </configuration>-->
       </plugin>
 <!--      <plugin>-->

@@ -21,11 +21,8 @@ class ProductsServiceTest {
   @Test
   @DisplayName("Should return Product if product name is matched")
   void getProductsByName(@Mock ProductsRepository productsRepository) {
-    val product = new Product().id(1L)
-        .name("iPhone XS Max")
-        .category("Mobile Phone")
-        .price(1099.99)
-        .count(5);
+
+    val product = new Product(1L,"iPhone XS Max", "Mobile Phone", 1099.99, 5);
 
     when(productsRepository.findOneByNameIgnoreCaseContaining(eq("iphone"))).thenReturn(Optional.of(product));
 

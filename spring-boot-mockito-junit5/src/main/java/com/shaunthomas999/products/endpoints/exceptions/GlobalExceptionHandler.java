@@ -22,7 +22,7 @@ public class GlobalExceptionHandler {
   }
 
   @ExceptionHandler(ConstraintViolationException.class)
-  public ResponseEntity<ErrorDetails> globalExceptionHandler(ConstraintViolationException ex, WebRequest request) {
+  public ResponseEntity<ErrorDetails> constraintViolationExceptionHandler(ConstraintViolationException ex, WebRequest request) {
     log.error(ex.getMessage());
 
     val errorDetails = new ErrorDetails(new Date(), ex.getMessage(), request.getDescription(false), HttpStatus.BAD_REQUEST);

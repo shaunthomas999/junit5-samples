@@ -1,12 +1,12 @@
 package com.shaunthomas999.products.endpoints.exceptions;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import org.springframework.http.HttpStatus;
 
 import java.util.Date;
 
-@Getter
+@Data
 @AllArgsConstructor
 public class ErrorDetails {
   private Date timestamp;

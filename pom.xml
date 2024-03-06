@@ -17,7 +17,7 @@
   </modules>
 
   <properties>
-    <java.version>1.8</java.version>
+    <java.version>17</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
 
@@ -25,11 +25,11 @@
     <project.build.sourceEncoding>${project.encoding}</project.build.sourceEncoding>
     <project.reporting.outputEncoding>${project.encoding}</project.reporting.outputEncoding>
 
-    <junit-jupiter.version>5.5.1</junit-jupiter.version>
-    <junit-platform.version>1.5.1</junit-platform.version>
-    <lombok.version>1.18.8</lombok.version>
-    <slf4j.version>1.7.28</slf4j.version>
+    <junit-jupiter.version>5.10.2</junit-jupiter.version>
+    <junit-platform.version>1.10.2</junit-platform.version>
+    <lombok.version>1.18.30</lombok.version>
+    <slf4j.version>2.0.12</slf4j.version>
 
-    <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+    <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
   </properties>
 </project>

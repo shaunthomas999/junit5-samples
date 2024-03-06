@@ -20,7 +20,9 @@ class PalindromeRepeatedTest {
 
     String candidate = testValues[currentRepetition-1];
 
-    log.info("Checking for string: " + candidate);
+//    FIXME
+//    log.info("Checking for string: " + candidate);
+    System.out.println("Checking for string: " + candidate);
 
     assertTrue(isPalindrome(candidate));
   }

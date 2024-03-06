@@ -20,22 +20,30 @@ public class CalculatorJunit4Test {
 
   @BeforeClass
   public static void init() {
-    log.info("BeforeClass");
+//  FIXME
+    //    log.info("BeforeClass");
+    System.out.println("BeforeClass");
   }
 
   @AfterClass
   public static void shutDown() {
-    log.info("AfterClass");
+//  FIXME
+    //    log.info("AfterClass");
+    System.out.println("AfterClass");
   }
 
   @Before
   public void setUp() {
-    log.info("Before");
+//  FIXME
+    //    log.info("Before");
+    System.out.println("Before");
   }
 
   @After
   public void tearDown() {
-    log.info("After");
+//  FIXME
+//    log.info("After");
+    System.out.println("After");
   }
 
   @Ignore("This test is simply ignored")
@@ -82,7 +90,9 @@ public class CalculatorJunit4Test {
 
   @Test
   public void fibonacci_2() {
-    log.info("{}", calculator.fibonacci(10)); // will timeout for n = 42
+//    FIXME
+//    log.info("{}", calculator.fibonacci(10)); // will timeout for n = 42
+    System.out.println(calculator.fibonacci(10));
   }
 
   // -- end

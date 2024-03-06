@@ -24,22 +24,30 @@ class CalculatorJunit5Test {
 
   @BeforeAll
   static void init() {
-    log.info("BeforeAll");
+//  FIXME
+//    log.info("BeforeAll");
+    System.out.println("BeforeAll");
   }
 
   @AfterAll
   static void shutDown() {
-    log.info("AfterAll");
+    //  FIXME
+//    log.info("AfterAll");
+    System.out.println("AfterAll");
   }
 
   @BeforeEach
   void setUp() {
-    log.info("BeforeEach");
+    //  FIXME
+//    log.info("BeforeEach");
+    System.out.println("BeforeEach");
   }
 
   @AfterEach
   void tearDown() {
-    log.info("AfterEach");
+    //  FIXME
+//    log.info("AfterEach");
+    System.out.println("AfterEach");
   }
 
   @Disabled("This test is simply disabled")
@@ -71,7 +79,9 @@ class CalculatorJunit5Test {
   @Test
   void fibonacci_2() {
     boolean result = assertTimeout(ofSeconds(1), () -> {
-      log.info("{}", calculator.fibonacci(10)); // will timeout for n = 42
+//      FIXME
+//      log.info("{}", calculator.fibonacci(10)); // will timeout for n = 42
+      System.out.println(calculator.fibonacci(10));
       return true;
     });
 

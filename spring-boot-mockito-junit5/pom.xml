@@ -14,7 +14,7 @@
   <name>spring-boot-mockito-junit5</name>
 
   <properties>
-    <spring-boot.version>2.1.7.RELEASE</spring-boot.version>
+    <spring-boot.version>2.7.18</spring-boot.version>
     <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
   </properties>
 
@@ -123,6 +123,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>${spring-boot.version}</version>
       </plugin>
       <!-- maven-surefire-plugin is required for junit 5 tests to run and it's version should be >=2.22.2  -->
       <plugin>

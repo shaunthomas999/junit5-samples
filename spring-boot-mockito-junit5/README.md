@@ -4,7 +4,7 @@
 
 ### Working URLs
 
-* `http://localhost:8080/products?name=OnePlus` 
+* `http://localhost:8080/products?name=OnePlus`
 
 ## H2 Database
 
@@ -22,10 +22,9 @@
 
 ## References
 
-### Swagger 2 - Spring-boot
-
-* https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
-* https://dzone.com/articles/spring-boot-2-restful-api-documentation-with-swagg
+* OAS / Swagger
+  * Swagger 3 - OAS - https://www.baeldung.com/spring-rest-openapi-documentation
+  * Swagger 2 with springfox (not recommended) - https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
 * Validation - https://www.baeldung.com/spring-validate-requestparam-pathvariable
 * Spring - JUnit 5 Configuration - https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-kotlin-testing
 

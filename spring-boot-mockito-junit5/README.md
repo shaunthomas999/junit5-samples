@@ -23,8 +23,9 @@
 ## References
 
 * OAS / Swagger
-  * Swagger 3 - OAS - https://www.baeldung.com/spring-rest-openapi-documentation
+  * Swagger 3 - OAS - OpanApi
+    * https://www.baeldung.com/spring-rest-openapi-documentation
+    * https://springdoc.org/#getting-started
   * Swagger 2 with springfox (not recommended) - https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
 * Validation - https://www.baeldung.com/spring-validate-requestparam-pathvariable
 * Spring - JUnit 5 Configuration - https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-kotlin-testing
-
